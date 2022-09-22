@@ -12,7 +12,7 @@ spec:
     spec:
       containers:
         - name: hello-world-pod
-          image: marounbassam/hello-spring:latest
+          image: npivaut/hello-spring:latest
           ports:
             - containerPort: 8080
 ---
